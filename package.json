@@ -23,6 +23,6 @@
     "typeface-oswald": "^1.1.13"
   },
   "engines": {
-    "node": "16.16.0"
+    "node": "16.x"
   }
 }
