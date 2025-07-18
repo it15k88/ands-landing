@@ -12,12 +12,13 @@ import PortfolioHome from "@/components/portfolio-home";
 import SubscribeForm from "@/components/subscribe-form";
 import ServiceTwo from "@/components/service-two";
 import AboutTwo from "@/components/about-two";
-import VideoTwo from "@/components/video-two";
+// import VideoTwo from "@/components/video-two";
 import HeaderOne from "@/components/header-one";
 import SearchContextProvider from "@/context/search-context";
 import MenuContextProvider from "@/context/menu-context";
 import SliderOne from "@/components/slider-one";
 import FeatureTwo from "@/components/feature-two";
+import AboutCompany from "@/components/about-company";
 
 const HomeOne = () => {
   return (
@@ -26,19 +27,20 @@ const HomeOne = () => {
         <Layout PageTitle="ands株式会社 - AI × 戦略で、成果を最短距離に">
           <HeaderOne />
           <SliderOne />
-          <ServiceTwo />
           <AboutTwo />
+          <ServiceTwo />
           <FeatureTwo />
-          <VideoTwo />
+          {/* <VideoTwo /> */}
           <SubscribeForm />
-          <PortfolioHome />
+          {/* <PortfolioHome /> */}
           <FunfactOne />
           <TrustedClient />
-          <TeamCarousel />
-          <ClientCarouselOne />
-          <ParallaxOne />
-          <BlogHome />
-          <CallToActionOne extraClassName="ready" />
+          {/* <TeamCarousel /> */}
+          {/* <ClientCarouselOne /> */}
+          {/* <ParallaxOne /> */}
+          {/* <BlogHome /> */}
+          {/* <CallToActionOne extraClassName="ready" /> */}
+          <AboutCompany />
           <Footer />
         </Layout>
       </SearchContextProvider>

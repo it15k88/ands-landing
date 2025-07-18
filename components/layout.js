@@ -30,7 +30,7 @@ const Layout = ({ PageTitle, children }) => {
     <Fragment>
       <Head>
         <title>
-          {PageTitle} - ands株式会社 - AI × 戦略で、成果を最短距離に
+          {PageTitle} - ands株式会社
         </title>
       </Head>
       <div id="wrapper">{children}</div>

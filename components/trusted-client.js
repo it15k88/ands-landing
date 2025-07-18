@@ -5,7 +5,7 @@ import { TrustClientData } from "@/data";
 const TrustedClient = ({ extraClassName }) => {
   const { image, title, text, url } = TrustClientData;
   return (
-    <section className={`commonSection trustClient ${extraClassName}`}>
+    <section className={`commonSection trustClient ${extraClassName}`} style={{ paddingBottom: '120px' }}>
       <div className="container">
         <div className="row">
           <div className="col-lg-12">
@@ -18,11 +18,12 @@ const TrustedClient = ({ extraClassName }) => {
                     <div className="abci_content">
                       <h2>{title}</h2>
                       <p style={{ fontSize: '18px', lineHeight: '1.8', fontStyle: 'italic' }}>{text}</p>
-                      <Link href={url}>
+                      {/* <Link href={url}>
                         <a className="common_btn red_bg">
                           <span>詳しく見る</span>
                         </a>
-                      </Link>
+                      </Link> */}
+                      <div style={{ paddingTop: '100px' }}></div>
                     </div>
                   </div>
                 </div>

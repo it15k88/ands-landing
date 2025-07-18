@@ -12,21 +12,22 @@ import FeatureTabOne from "@/components/feature-tab-1";
 import HeaderOne from "@/components/header-one";
 import SearchContextProvider from "@/context/search-context";
 import MenuContextProvider from "@/context/menu-context";
-
+import AboutCompany from "@/components/about-company";
 const AboutPage = () => {
   return (
     <MenuContextProvider>
       <SearchContextProvider>
-        <Layout PageTitle="About Us Page">
+        <Layout PageTitle="会社概要">
           <HeaderOne />
-          <PageBanner title="About Us" name="About" />
-          <AboutOne />
-          <TestimonialsOneCarousel />
-          <SubscribeForm />
-          <TeamCarousel />
-          <VideoOne />
-          <FeatureTabOne />
-          <CallToActionOne extraClassName="ready" />
+          <PageBanner title="COMPANY INFO │ 会社概要" name="About" />
+          {/* <AboutOne /> */}
+          {/* <TestimonialsOneCarousel /> */}
+          {/* <SubscribeForm /> */}
+          {/* <TeamCarousel /> */}
+          {/* <VideoOne /> */}
+          {/* <FeatureTabOne /> */}
+          {/* <CallToActionOne extraClassName="ready" /> */}
+          <AboutCompany />
           <Footer />
         </Layout>
       </SearchContextProvider>

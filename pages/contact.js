@@ -12,12 +12,12 @@ const ContactPage = () => {
   return (
     <MenuContextProvider>
       <SearchContextProvider>
-        <Layout PageTitle="Contact Page">
+        <Layout PageTitle="お問い合わせ">
           <HeaderOne />
-          <PageBanner title="Contact Us" name="Contact" />
+          <PageBanner title="お問い合わせ" name="Contact" />
           <ContactForm />
-          <GoogleMap extraClass="contact-page" />
-          <ContactInfos />
+          {/* <GoogleMap extraClass="contact-page" />
+          <ContactInfos /> */}
           <Footer />
         </Layout>
       </SearchContextProvider>

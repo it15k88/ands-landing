@@ -35,9 +35,9 @@ const FeatureTwo = () => {
           <div className="col-lg-7 col-sm-12 col-md-7 noPaddingRight">
             <div className="features_img">
               <img src={image.path} alt="" />
-              <div className="img_details">
+              {/* <div className="img_details">
                 <h4>{image.text}</h4>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

@@ -89,7 +89,7 @@ const PopupMenu = () => {
               </div>
             </div>
           </div>
-          <div className="row">
+          {/* <div className="row">
             <div className="col-lg-6 col-sm-12 col-xs-12 text-center text-md-left">
               <ul className="footer__contacts">
                 <li>Phone: 666 888 000</li>
@@ -120,7 +120,7 @@ const PopupMenu = () => {
                 </ul>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

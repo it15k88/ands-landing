@@ -11,20 +11,21 @@ import ClientCarouselOne from "@/components/client-carousel-one";
 import MenuContextProvider from "@/context/menu-context";
 import SearchContextProvider from "@/context/search-context";
 import HeaderOne from "@/components/header-one";
-
+import SubscribeForm from "@/components/subscribe-form";
 const ServicePage = () => {
   return (
     <MenuContextProvider>
       <SearchContextProvider>
-        <Layout PageTitle="Services Page">
+        <Layout PageTitle="事業内容">
           <HeaderOne />
-          <PageBanner title="Services" name="Services" />
-          <ServiceOne />
-          <ServiceTwo />
-          <ServiceThree />
+          <PageBanner title="事業内容" name="Services" />
+          {/* <ServiceOne /> */}
+          {/* <ServiceThree /> */}
           <FunfactOne />
           <TrustedClient extraClassName="pb_120" />
-          <ClientCarouselOne />
+          <ServiceTwo />
+          {/* <ClientCarouselOne /> */}
+          <SubscribeForm />
           <Footer />
         </Layout>
       </SearchContextProvider>
