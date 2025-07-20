@@ -19,7 +19,7 @@ const AboutCompany = () => {
           <Col lg={6} md={6} sm={12}>
             {gallery.map((item, index) => (
               <div className={`ab_img${index + 1}`} key={index}>
-                <img src={item} alt="" />
+                <img src={item} alt="" style={{ maxWidth: '470px', maxHeight: '378px' }} />
               </div>
             ))}
           </Col>

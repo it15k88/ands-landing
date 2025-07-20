@@ -15,7 +15,6 @@ const AboutTwo = () => {
             {/* <a className="common_btn red_bg" href={button.url}>
               <span>{button.label}</span>
             </a> */}
-            <div style={{ paddingTop: '100px' }}></div>
           </Col>
           <Col lg={6} md={6} sm={12}>
             {gallery.map((item, index) => (

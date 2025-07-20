@@ -953,6 +953,9 @@ export const AboutTwoData = {
   gallery: [aboutTwo01, aboutTwo02],
 };
 
+import aboutCompany01 from "@/images/home_1/11.jpg";
+import aboutCompany02 from "@/images/home_1/12.jpg";
+
 export const AboutCompanyData = {
   sectionContent: {
     title: "COMPANY INFO │ 会社概要",
@@ -963,7 +966,7 @@ export const AboutCompanyData = {
     label: "詳しく見る",
     url: "/about",
   },
-  gallery: [aboutTwo01, aboutTwo02],
+  gallery: [aboutCompany02, aboutCompany01],
 };
 
 import featureTwo01 from "@/images/home_1/5.jpg";

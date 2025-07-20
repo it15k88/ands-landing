@@ -34,7 +34,7 @@ const FeatureTwo = () => {
           </div>
           <div className="col-lg-7 col-sm-12 col-md-7 noPaddingRight">
             <div className="features_img">
-              <img src={image.path} alt="" />
+              <img src={image.path} alt="" style={{ maxWidth: '1032px', maxHeight: '661px' }} />
               {/* <div className="img_details">
                 <h4>{image.text}</h4>
               </div> */}

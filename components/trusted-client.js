@@ -10,7 +10,7 @@ const TrustedClient = ({ extraClassName }) => {
         <div className="row">
           <div className="col-lg-12">
             <div className="CL_content">
-              <img src={image} alt="" />
+              <img src={image} alt="" style={{ maxWidth: '770px', maxHeight: '687px' }} />
               <div className="abc_inner">
                 <div className="row">
                   <div className="col-lg-5 col-sm-12 col-md-5"></div>
