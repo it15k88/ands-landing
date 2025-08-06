@@ -1,13 +1,11 @@
 import logoLight from "@/images/logo.png";
 import logoDark from "@/images/logo2.png";
-import logoHeader from "@/images/logo-header.png";
 
 export const LogoImage = {
   light: logoLight,
   dark: logoDark,
 };
 
-export const LogoHeaderImage = logoHeader;
 
 export const NavLinks = [
   {
@@ -114,9 +112,9 @@ export const SliderOneData = [
   },
 ];
 
-import sliderTwo01 from "@/images/slider/2_1.jpg";
-import sliderTwo02 from "@/images/slider/2_2.jpg";
-import sliderTwo03 from "@/images/slider/2_3.jpg";
+import sliderTwo01 from "@/images/slider/1_1.jpg";
+import sliderTwo02 from "@/images/slider/1_1.jpg";
+import sliderTwo03 from "@/images/slider/1_1.jpg";
 
 export const SliderTwoData = [
   {
@@ -148,8 +146,8 @@ export const SliderTwoData = [
   },
 ];
 
-import sliderThree01 from "@/images/slider/3_1.jpg";
-import sliderThree02 from "@/images/slider/3_2.jpg";
+import sliderThree01 from "@/images/slider/1_1.jpg";
+import sliderThree02 from "@/images/slider/1_1.jpg";
 
 export const SliderThreeData = [
   {
@@ -780,9 +778,9 @@ export const SubscribeFormData = {
   },
 };
 
-import testimonial01 from "@/images/home_1/t1.jpg";
-import testimonial02 from "@/images/home_1/t2.jpg";
-import testimonial03 from "@/images/home_1/t3.jpg";
+import testimonial01 from "@/images/home_1/1.jpg";
+import testimonial02 from "@/images/home_1/1.jpg";
+import testimonial03 from "@/images/home_1/1.jpg";
 
 export const TestimonialsOneData = {
   sectionContent: {
@@ -817,9 +815,9 @@ export const TestimonialsOneData = {
   ],
 };
 
-import featureTab01 from "@/images/home_1/c1.jpg";
-import featureTab02 from "@/images/home_1/c2.jpg";
-import featureTab03 from "@/images/home_1/c3.jpg";
+import featureTab01 from "@/images/home_1/1.jpg";
+import featureTab02 from "@/images/home_1/1.jpg";
+import featureTab03 from "@/images/home_1/1.jpg";
 
 export const FeatureTabData = {
   sectionContent: {
