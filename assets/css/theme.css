@@ -455,7 +455,7 @@ License URI:
 }
 .ab_img2:after {
   position: absolute;
-  top: -40px;
+  top: -135px;
   left: 40px;
   content: "";
   border: 10px solid #e62b4a;

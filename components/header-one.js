@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useContext } from "react";
-import { LogoImage, NavLinks } from "@/data";
+import { LogoImage, LogoHeaderImage, NavLinks } from "@/data";
 import { Col, Container, Row } from "react-bootstrap";
 import { SearchContext } from "@/context/search-context";
 import { MenuContext } from "@/context/menu-context";
@@ -44,11 +44,15 @@ const HeaderOne = () => {
         <Row className="justify-content-between">
           <Col className="col-6" lg={2} md={3} sm={3}>
             <div className="logo">
-              <Link href="/">
+              {/* <Link href="/">
                 <a>
-                  <img src={LogoImage.light} alt="" />
+                  <img
+                    src={LogoHeaderImage}
+                    alt=""
+                    style={{ maxWidth: "30%" }}
+                  />
                 </a>
-              </Link>
+              </Link> */}
             </div>
           </Col>
           <Col lg={8} sm={8} md={7} className="d-none d-lg-block ">

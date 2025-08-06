@@ -1,10 +1,13 @@
 import logoLight from "@/images/logo.png";
 import logoDark from "@/images/logo2.png";
+import logoHeader from "@/images/logo-header.png";
 
 export const LogoImage = {
   light: logoLight,
   dark: logoDark,
 };
+
+export const LogoHeaderImage = logoHeader;
 
 export const NavLinks = [
   {
@@ -79,10 +82,10 @@ export const NavLinks = [
   //     },
   //   ],
   // },
-  {
-    name: "お問い合わせ",
-    url: "/contact",
-  },
+  // {
+  //   name: "お問い合わせ",
+  //   url: "/contact",
+  // },
 ];
 
 import sliderOne01 from "@/images/slider/1_1.jpg";
