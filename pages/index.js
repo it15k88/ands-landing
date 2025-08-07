@@ -31,7 +31,7 @@ const HomeOne = () => {
           <ServiceTwo />
           <FeatureTwo />
           {/* <VideoTwo /> */}
-          <SubscribeForm />
+          {/* <SubscribeForm /> */}
           {/* <PortfolioHome /> */}
           <FunfactOne />
           <TrustedClient />

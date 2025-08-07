@@ -6,7 +6,6 @@ export const LogoImage = {
   dark: logoDark,
 };
 
-
 export const NavLinks = [
   {
     name: "ホーム",
@@ -80,10 +79,10 @@ export const NavLinks = [
   //     },
   //   ],
   // },
-  // {
-  //   name: "お問い合わせ",
-  //   url: "/contact",
-  // },
+  {
+    name: "お問い合わせ",
+    url: "/contact",
+  },
 ];
 
 import sliderOne01 from "@/images/slider/1_1.jpg";
