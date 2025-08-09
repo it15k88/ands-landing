@@ -1,5 +1,10 @@
 export const LogoImage = {
-  light: "/images/logo.png",
+  light: "/images/logo_home.png",
+  dark: "/images/logo2.png",
+};
+
+export const LogoHeaderImage = {
+  light: "/images/logo_home.png",
   dark: "/images/logo2.png",
 };
 
@@ -86,8 +91,7 @@ export const SliderOneData = [
   {
     image: "/images/slider/1_1.jpg",
     subTitle: "AI × 戦略で、成果を最短距離に。",
-    title:
-      'Web広告の"いま"と"つぎ"を and で結び、ads を伸ばすパートナー──ands株式会社',
+    title: 'Web広告の"いま"and"つぎ"を and で結び、ands株式会社──ands株式会社',
     button: {
       label: "詳しく見る",
       url: "/about",
@@ -95,9 +99,8 @@ export const SliderOneData = [
   },
   {
     image: "/images/slider/1_2.jpg",
-    subTitle: "AI × 戦略で、成果を最短距離に。",
-    title:
-      'Web広告の"いま"と"つぎ"を and で結び、ads を伸ばすパートナー──ands株式会社',
+    subTitle: "AI × 戦略で、成果を最短距離に詳しく見る。",
+    title: 'Web広告の"いま"and"つぎ"を and で結び、ands株式会社──ands株式会社',
     button: {
       label: "詳しく見る",
       url: "/about",
@@ -404,7 +407,10 @@ export const PortfolioFilters = [
 ];
 
 export const PortfolioDetailsData = {
-  gallery: [{ image: "/images/portfolio/7.jpg" }, { image: "/images/portfolio/8.jpg" }],
+  gallery: [
+    { image: "/images/portfolio/7.jpg" },
+    { image: "/images/portfolio/8.jpg" },
+  ],
   title: "Design Styles",
   text: " Tincidunt elit magnis nulla facilisis sagittis sapien nunc amet ultrices dolores sit ipsum velit purus aliquet massa fringilla leo orci. Sapien nunc amet ultrices, dolores sit ipsum velit purus aliquet, massa fringilla leo orci dolors sit amet elit amet. ",
   client: "Jessica Brown",

@@ -12,9 +12,9 @@ const AboutCompany = () => {
             <h4 className="sub_title">{sectionContent.subTitle}</h4>
             <h2 className="sec_title MB_45">{sectionContent.title}</h2>
             <p className="sec_desc">{sectionContent.text}</p>
-            <a className="common_btn red_bg" href={button.url}>
+            {/* <a className="common_btn red_bg" href={button.url}>
               <span>{button.label}</span>
-            </a>
+            </a> */}
           </Col>
           <Col lg={6} md={6} sm={12}>
             {gallery.map((item, index) => (

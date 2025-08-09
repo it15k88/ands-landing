@@ -46,7 +46,7 @@ const HeaderTwo = () => {
             <div className="logo">
               <Link href="/">
                 <a>
-                  <img src={LogoImage.dark} alt="" />
+                  <img src={LogoHeaderImage} alt="" width={100} height={100}/>
                 </a>
               </Link>
             </div>

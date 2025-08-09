@@ -44,15 +44,14 @@ const HeaderOne = () => {
         <Row className="justify-content-between">
           <Col className="col-6" lg={2} md={3} sm={3}>
             <div className="logo">
-              {/* <Link href="/">
+              <Link href="/">
                 <a>
                   <img
-                    src={LogoHeaderImage}
+                    src={LogoHeaderImage.light}
                     alt=""
-                    style={{ maxWidth: "30%" }}
                   />
                 </a>
-              </Link> */}
+              </Link>
             </div>
           </Col>
           <Col lg={8} sm={8} md={7} className="d-none d-lg-block ">

@@ -32,11 +32,11 @@ const SliderOne = () => {
                 <Col lg={12} className="text-center">
                   <p className="main-slider__subtext">{subTitle}</p>
                   <h3 className="main-slider__title">{title}</h3>
-                  <Link href={button.url}>
+                  {/* <Link href={button.url}>
                     <a className={`common_btn`}>
                       <span>{button.label}</span>
                     </a>
-                  </Link>
+                  </Link> */}
                 </Col>
               </Row>
             </Container>
