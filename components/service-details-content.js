@@ -1,6 +1,6 @@
 import React from "react";
-import serviceS1 from "@/images/s3.jpg";
-import serviceS2 from "@/images/s3.jpg";
+import serviceS1 from "/images/s3.jpg";
+import serviceS2 from "/images/s3.jpg";
 const ServiceDetailsContent = () => {
   return (
     <div className="serviceArea">

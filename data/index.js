@@ -1,9 +1,6 @@
-import logoLight from "@/images/logo.png";
-import logoDark from "@/images/logo2.png";
-
 export const LogoImage = {
-  light: logoLight,
-  dark: logoDark,
+  light: "/images/logo.png",
+  dark: "/images/logo2.png",
 };
 
 export const NavLinks = [
@@ -85,12 +82,9 @@ export const NavLinks = [
   },
 ];
 
-import sliderOne01 from "@/images/slider/1_1.jpg";
-import sliderOne02 from "@/images/slider/1_2.jpg";
-
 export const SliderOneData = [
   {
-    image: sliderOne01,
+    image: "/images/slider/1_1.jpg",
     subTitle: "AI × 戦略で、成果を最短距離に。",
     title:
       'Web広告の"いま"と"つぎ"を and で結び、ads を伸ばすパートナー──ands株式会社',
@@ -100,7 +94,7 @@ export const SliderOneData = [
     },
   },
   {
-    image: sliderOne02,
+    image: "/images/slider/1_2.jpg",
     subTitle: "AI × 戦略で、成果を最短距離に。",
     title:
       'Web広告の"いま"と"つぎ"を and で結び、ads を伸ばすパートナー──ands株式会社',
@@ -110,14 +104,10 @@ export const SliderOneData = [
     },
   },
 ];
-
-import sliderTwo01 from "@/images/slider/1_1.jpg";
-import sliderTwo02 from "@/images/slider/1_1.jpg";
-import sliderTwo03 from "@/images/slider/1_1.jpg";
 
 export const SliderTwoData = [
   {
-    image: sliderTwo01,
+    image: "/images/slider/1_1.jpg",
     subTitle: "WELCOME TO MEIPALY AGENCY",
     title: "DIGITAL\nMARKETING\nAGENCY.",
     button: {
@@ -126,7 +116,7 @@ export const SliderTwoData = [
     },
   },
   {
-    image: sliderTwo02,
+    image: "/images/slider/1_1.jpg",
     subTitle: "WELCOME TO MEIPALY AGENCY",
     title: "DIGITAL\nMARKETING\nAGENCY.",
     button: {
@@ -135,7 +125,7 @@ export const SliderTwoData = [
     },
   },
   {
-    image: sliderTwo03,
+    image: "/images/slider/1_1.jpg",
     subTitle: "WELCOME TO MEIPALY AGENCY",
     title: "DIGITAL\nMARKETING\nAGENCY.",
     button: {
@@ -145,12 +135,9 @@ export const SliderTwoData = [
   },
 ];
 
-import sliderThree01 from "@/images/slider/1_1.jpg";
-import sliderThree02 from "@/images/slider/1_1.jpg";
-
 export const SliderThreeData = [
   {
-    image: sliderThree01,
+    image: "/images/slider/1_1.jpg",
     subTitle: "WELCOME TO MEIPALY AGENCY",
     title: "SMART WEB\n DESIGN AGENCY.",
     button: {
@@ -159,7 +146,7 @@ export const SliderThreeData = [
     },
   },
   {
-    image: sliderThree02,
+    image: "/images/slider/1_1.jpg",
     subTitle: "WELCOME TO MEIPALY AGENCY",
     title: "SMART WEB\n DESIGN AGENCY.",
     button: {
@@ -242,54 +229,44 @@ export const ContactFormTitle = {
     "We are committed to providing our customers with exceptional service while \n      offering our employees the best training. ",
 };
 
-import blogImage1 from "@/images/blog/1.jpg";
-import blogImage2 from "@/images/blog/2.jpg";
-import blogImage3 from "@/images/blog/3.jpg";
-import blogImage4 from "@/images/blog/4.jpg";
-import blogImage5 from "@/images/blog/5.jpg";
-import blogImage6 from "@/images/blog/6.jpg";
-
 export const BlogData = [
   {
     title: "basic rules of running web agency business",
     date: "20 nov",
     url: "/blog-single",
-    image: blogImage1,
+    image: "/images/blog/1.jpg",
   },
   {
     title: "Become the best sale marketer",
     date: "20 nov",
     url: "/blog-single",
-    image: blogImage2,
+    image: "/images/blog/2.jpg",
   },
   {
     title: "Introducing latest mopaly features",
     date: "20 nov",
     url: "/blog-single",
-    image: blogImage3,
+    image: "/images/blog/3.jpg",
   },
   {
     title: "a deep understanding of our audience",
     date: "20 nov",
     url: "/blog-single",
-    image: blogImage4,
+    image: "/images/blog/4.jpg",
   },
   {
     title: "We build and activate brands insight",
     date: "20 nov",
     url: "/blog-single",
-    image: blogImage5,
+    image: "/images/blog/5.jpg",
   },
   {
     title: "experiences that connect with people",
     date: "20 nov",
     url: "/blog-single",
-    image: blogImage6,
+    image: "/images/blog/6.jpg",
   },
 ];
-
-import blogImageTwo1 from "@/images/blog/14.jpg";
-import blogImageTwo2 from "@/images/blog/15.jpg";
 
 export const BlogTwoData = [
   {
@@ -297,44 +274,44 @@ export const BlogTwoData = [
       "Dynamically procrastinate unique vortals with global best practices.",
     date: "20 nov",
     url: "/blog-single",
-    image: blogImageTwo1,
+    image: "/images/blog/14.jpg",
   },
   {
     title: "Become the best sale marketer",
     date: "20 nov",
     url: "/blog-single",
-    image: blogImage2,
+    image: "/images/blog/2.jpg",
   },
   {
     title: "Introducing latest mopaly features",
     date: "20 nov",
     url: "/blog-single",
-    image: blogImage3,
+    image: "/images/blog/3.jpg",
   },
   {
     title: "a deep understanding of our audience",
     date: "20 nov",
     url: "/blog-single",
-    image: blogImage4,
+    image: "/images/blog/4.jpg",
   },
   {
     title: "We build and activate brands insight",
     date: "20 nov",
     url: "/blog-single",
-    image: blogImage5,
+    image: "/images/blog/5.jpg",
   },
   {
     title:
       "Holisticly conceptualize backend scenarios via accurate technologies.",
     date: "20 nov",
     url: "/blog-single",
-    image: blogImageTwo2,
+    image: "/images/blog/15.jpg",
   },
   {
     title: "experiences that connect with people",
     date: "20 nov",
     url: "/blog-single",
-    image: blogImage6,
+    image: "/images/blog/6.jpg",
   },
 ];
 
@@ -344,41 +321,34 @@ export const BlogHomeSection = {
   text: "AIとデジタルマーケティングに関する最新の情報をお届けします。",
 };
 
-import blogS1 from "@/images/blog/11.jpg";
-import blogS2 from "@/images/blog/12.jpg";
-import blogS3 from "@/images/blog/13.jpg";
-
 export const BlogSidebarPost = [
   {
     title: "basic rules of running web agency",
-    image: blogS1,
+    image: "/images/blog/11.jpg",
     url: "/blog-single",
   },
   {
     title: "basic rules of running web agency",
-    image: blogS2,
+    image: "/images/blog/12.jpg",
     url: "/blog-single",
   },
   {
     title: "basic rules of running web agency",
-    image: blogS3,
+    image: "/images/blog/13.jpg",
     url: "/blog-single",
   },
 ];
 
-import commentImage1 from "@/images/blog/9.jpg";
-import commentImage2 from "@/images/blog/10.jpg";
-
 export const BlogComments = [
   {
-    image: commentImage1,
+    image: "/images/blog/9.jpg",
     name: "David Martin",
     data: "20 Nov, 2018 - 4:00 pm",
     content:
       "Lorem Ipsum is simply dummy text of the rinting and typesetting been the industry standard dummy text ever sincer condimentum purus. In non ex at ligula fringilla lobortis et not the aliquet.",
   },
   {
-    image: commentImage2,
+    image: "/images/blog/10.jpg",
     name: "Jessica Brown",
     data: "20 Nov, 2018 - 4:00 pm",
     content:
@@ -386,48 +356,41 @@ export const BlogComments = [
   },
 ];
 
-import portfolio01 from "@/images/portfolio/1.jpg";
-import portfolio02 from "@/images/portfolio/2.jpg";
-import portfolio03 from "@/images/portfolio/3.jpg";
-import portfolio04 from "@/images/portfolio/4.jpg";
-import portfolio05 from "@/images/portfolio/5.jpg";
-import portfolio06 from "@/images/portfolio/6.jpg";
-
 export const PortfolioData = [
   {
     title: "Design Styles",
     categories: ["all", "graphic"],
-    image: portfolio01,
+    image: "/images/portfolio/1.jpg",
     url: "/portfolio-details",
   },
   {
     title: "Design Styles",
     categories: ["all", "graphic"],
-    image: portfolio02,
+    image: "/images/portfolio/2.jpg",
     url: "/portfolio-details",
   },
   {
     title: "Design Styles",
     categories: ["all", "graphic"],
-    image: portfolio03,
+    image: "/images/portfolio/3.jpg",
     url: "/portfolio-details",
   },
   {
     title: "Design Styles",
     categories: ["all", "graphic"],
-    image: portfolio04,
+    image: "/images/portfolio/4.jpg",
     url: "/portfolio-details",
   },
   {
     title: "Design Styles",
     categories: ["all", "graphic"],
-    image: portfolio05,
+    image: "/images/portfolio/5.jpg",
     url: "/portfolio-details",
   },
   {
     title: "Design Styles",
     categories: ["all", "graphic"],
-    image: portfolio06,
+    image: "/images/portfolio/6.jpg",
     url: "/portfolio-details",
   },
 ];
@@ -440,11 +403,8 @@ export const PortfolioFilters = [
   { name: "logos" },
 ];
 
-import portfolioD01 from "@/images/portfolio/7.jpg";
-import portfolioD02 from "@/images/portfolio/8.jpg";
-
 export const PortfolioDetailsData = {
-  gallery: [{ image: portfolioD01 }, { image: portfolioD02 }],
+  gallery: [{ image: "/images/portfolio/7.jpg" }, { image: "/images/portfolio/8.jpg" }],
   title: "Design Styles",
   text: " Tincidunt elit magnis nulla facilisis sagittis sapien nunc amet ultrices dolores sit ipsum velit purus aliquet massa fringilla leo orci. Sapien nunc amet ultrices, dolores sit ipsum velit purus aliquet, massa fringilla leo orci dolors sit amet elit amet. ",
   client: "Jessica Brown",
@@ -551,30 +511,26 @@ export const ServicePostTwoData = {
   ],
 };
 
-import serviceOne01 from "@/images/home_1/6.jpg";
-import serviceOne02 from "@/images/home_1/7.jpg";
-import serviceOne03 from "@/images/home_1/8.jpg";
-
 export const ServicePostThreeData = {
   sectionContent: {
-    title: "Let’s create something",
+    title: "Let's create something",
     subTitle: "what we do",
     text: "We are committed to providing our customers with exceptional service \n while offering our employees the best training.",
   },
   posts: [
     {
       title: "web development",
-      image: serviceOne01,
+      image: "/images/home_1/6.jpg",
       url: "/service-details",
     },
     {
       title: "digital marketing",
-      image: serviceOne02,
+      image: "/images/home_1/7.jpg",
       url: "/service-details",
     },
     {
       title: "product branding",
-      image: serviceOne03,
+      image: "/images/home_1/8.jpg",
       url: "/service-details",
     },
   ],
@@ -599,20 +555,12 @@ export const FunfactData = [
   // }
 ];
 
-import trustClient01 from "@/images/home_1/4.jpg";
-
 export const TrustClientData = {
-  image: trustClient01,
+  image: "/images/home_1/4.jpg",
   title: "MESSAGE │ 代表メッセージ",
   text: '"広告は、費用ではなく投資であるべきです。andsはAIを活用し、投資対効果を科学することで、クライアントの成長を加速させます。"\n\n— 代表取締役 天野 真夢',
   url: "/about",
 };
-
-import ClientCarousel01 from "@/images/client/1.png";
-import ClientCarousel02 from "@/images/client/2.png";
-import ClientCarousel03 from "@/images/client/3.png";
-import ClientCarousel04 from "@/images/client/4.png";
-import ClientCarousel05 from "@/images/client/5.png";
 
 export const ClientCarouselData = {
   sectionContent: {
@@ -623,47 +571,38 @@ export const ClientCarouselData = {
   items: [
     {
       url: "#",
-      image: ClientCarousel01,
+      image: "/images/client/1.png",
     },
     {
       url: "#",
-      image: ClientCarousel02,
+      image: "/images/client/2.png",
     },
     {
       url: "#",
-      image: ClientCarousel03,
+      image: "/images/client/3.png",
     },
     {
       url: "#",
-      image: ClientCarousel04,
+      image: "/images/client/4.png",
     },
     {
       url: "#",
-      image: ClientCarousel05,
+      image: "/images/client/5.png",
     },
   ],
 };
-
-import aboutOne01 from "@/images/about/1.jpg";
-import aboutOne02 from "@/images/about/2.jpg";
 
 export const AboutOneData = {
   sectionContent: {
     title: "build better website alot quicker with meipaly agency",
     subTitle: "get to know us",
   },
-  gallery: [aboutOne01, aboutOne02],
+  gallery: ["/images/about/1.jpg", "/images/about/2.jpg"],
   counter: {
     title: "Company Started",
     number: 1990,
   },
 };
-
-import team01 from "@/images/team/1.jpg";
-import team02 from "@/images/team/2.jpg";
-import team03 from "@/images/team/3.jpg";
-import team04 from "@/images/team/4.jpg";
-import team05 from "@/images/team/5.jpg";
 
 export const TeamOneData = {
   sectionContent: {
@@ -673,7 +612,7 @@ export const TeamOneData = {
   },
   posts: [
     {
-      image: team01,
+      image: "/images/team/1.jpg",
       name: "天野 真夢",
       designation: "代表取締役",
       url: "#",
@@ -689,7 +628,7 @@ export const TeamOneData = {
       ],
     },
     {
-      image: team02,
+      image: "/images/team/2.jpg",
       name: "田中 太郎",
       designation: "クリエイティブディレクター",
       url: "#",
@@ -705,7 +644,7 @@ export const TeamOneData = {
       ],
     },
     {
-      image: team03,
+      image: "/images/team/3.jpg",
       name: "佐藤 花子",
       designation: "マーケティングマネージャー",
       url: "#",
@@ -721,7 +660,7 @@ export const TeamOneData = {
       ],
     },
     {
-      image: team04,
+      image: "/images/team/4.jpg",
       name: "鈴木 次郎",
       designation: "AIエンジニア",
       url: "#",
@@ -737,7 +676,7 @@ export const TeamOneData = {
       ],
     },
     {
-      image: team05,
+      image: "/images/team/5.jpg",
       name: "高橋 美咲",
       designation: "データアナリスト",
       url: "#",
@@ -755,8 +694,6 @@ export const TeamOneData = {
   ],
 };
 
-import video01 from "@/images/about/3.jpg";
-
 export const VideoOneData = {
   sectionContent: {
     title: "AIとデジタルマーケティングで、\nビジネスの可能性を拡張する",
@@ -764,7 +701,7 @@ export const VideoOneData = {
     text: "AIと人間の知見を掛け合わせ、革新的なデジタルマーケティングソリューションを提供します。データドリブンな戦略で、クライアントの成長を加速させます。",
   },
   video: {
-    image: video01,
+    image: "/images/about/3.jpg",
     ID: "y2Eqx6ys1hQ",
     title: "動画を見る",
   },
@@ -777,10 +714,6 @@ export const SubscribeFormData = {
   },
 };
 
-import testimonial01 from "@/images/home_1/1.jpg";
-import testimonial02 from "@/images/home_1/1.jpg";
-import testimonial03 from "@/images/home_1/1.jpg";
-
 export const TestimonialsOneData = {
   sectionContent: {
     subTitle: "お客様の声",
@@ -790,7 +723,7 @@ export const TestimonialsOneData = {
     {
       name: "田中 一郎",
       designation: "マーケティングディレクター",
-      image: testimonial01,
+      image: "/images/home_1/1.jpg",
       content:
         "ands株式会社のAIを活用した広告運用により、ROASが大幅に改善されました。データに基づいた戦略立案と、クリエイティブの最適化により、投資対効果が明確に向上しています。",
       date: "2024年12月",
@@ -798,7 +731,7 @@ export const TestimonialsOneData = {
     {
       name: "佐藤 美咲",
       designation: "EC事業部長",
-      image: testimonial02,
+      image: "/images/home_1/1.jpg",
       content:
         "比較メディアサイト事業と広告運用の連携により、LTVが最大化されました。ワンストップでのサービス提供により、効率的に事業成長を実現できています。",
       date: "2024年11月",
@@ -806,17 +739,13 @@ export const TestimonialsOneData = {
     {
       name: "鈴木 健太",
       designation: "スタートアップCEO",
-      image: testimonial03,
+      image: "/images/home_1/1.jpg",
       content:
         "創業期からands株式会社にサポートしていただき、CACを抑えながら安定した成長を実現できました。AIと人間の知見の組み合わせが素晴らしいです。",
       date: "2024年10月",
     },
   ],
 };
-
-import featureTab01 from "@/images/home_1/1.jpg";
-import featureTab02 from "@/images/home_1/1.jpg";
-import featureTab03 from "@/images/home_1/1.jpg";
 
 export const FeatureTabData = {
   sectionContent: {
@@ -829,7 +758,7 @@ export const FeatureTabData = {
       title: "Latest technology",
       content:
         "There are many variations of passages of lorem ipsum available, but the majority have  suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. ",
-      image: featureTab01,
+      image: "/images/home_1/1.jpg",
       lists: [
         {
           item: "Self-contained, state-of-the-art time clock",
@@ -855,7 +784,7 @@ export const FeatureTabData = {
       title: "Awesome Support",
       content:
         "There are many variations of passages of lorem ipsum available, but the majority have  suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. ",
-      image: featureTab02,
+      image: "/images/home_1/1.jpg",
       lists: [
         {
           item: "Self-contained, state-of-the-art time clock",
@@ -881,7 +810,7 @@ export const FeatureTabData = {
       title: "1 Click demo install",
       content:
         "There are many variations of passages of lorem ipsum available, but the majority have  suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. ",
-      image: featureTab03,
+      image: "/images/home_1/1.jpg",
       lists: [
         {
           item: "Self-contained, state-of-the-art time clock",
@@ -921,8 +850,6 @@ export const PortfolioHomeData = {
   },
 };
 
-import video02 from "@/images/home_1/3.jpg";
-
 export const VideoTwoData = {
   sectionContent: {
     title: "デジタル体験",
@@ -932,12 +859,9 @@ export const VideoTwoData = {
   video: {
     title: "動画を見る",
     ID: "y2Eqx6ys1hQ",
-    image: video02,
+    image: "/images/home_1/3.jpg",
   },
 };
-
-import aboutTwo01 from "@/images/home_1/2.jpg";
-import aboutTwo02 from "@/images/home_1/1.jpg";
 
 export const AboutTwoData = {
   sectionContent: {
@@ -950,11 +874,8 @@ export const AboutTwoData = {
     label: "詳しく見る",
     url: "#",
   },
-  gallery: [aboutTwo01, aboutTwo02],
+  gallery: ["/images/home_1/2.jpg", "/images/home_1/1.jpg"],
 };
-
-import aboutCompany01 from "@/images/home_1/11.jpg";
-import aboutCompany02 from "@/images/home_1/12.jpg";
 
 export const AboutCompanyData = {
   sectionContent: {
@@ -966,10 +887,8 @@ export const AboutCompanyData = {
     label: "詳しく見る",
     url: "/about",
   },
-  gallery: [aboutCompany02, aboutCompany01],
+  gallery: ["/images/home_1/12.jpg", "/images/home_1/11.jpg"],
 };
-
-import featureTwo01 from "@/images/home_1/5.jpg";
 
 export const FeatureTwoData = {
   sectionContent: {
@@ -996,7 +915,7 @@ export const FeatureTwoData = {
   ],
   image: {
     text: "AI × 戦略で、\n成果を最短距離に。",
-    path: featureTwo01,
+    path: "/images/home_1/5.jpg",
   },
 };
 
